@@ -9,8 +9,8 @@ characters = list (string.ascii_letters + string.digits + "@")
 def generate_random_password():
     length = int (input("Şifre Uzunluğu: "))
 
-    alphabets_count = int(input("Ne kadar harf: "))
-    digits_count = int(input("Ne kadar rakam: "))
+    alphabets_count = int(input("Kaç harf: "))
+    digits_count = int(input("Kaç rakam: "))
 
     characters_count = alphabets_count + digits_count 
 
